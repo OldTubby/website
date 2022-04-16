@@ -96,3 +96,13 @@ body {
   align-items: center;
   background-color: white;
 }
+
+.portfolioBody {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  background-color: white;
+  color: black;
+}

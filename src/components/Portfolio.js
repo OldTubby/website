@@ -1,11 +1,23 @@
-import React from "react"
+import React from 'react';
+import Tech from './Tech';
+import she from '../images/She.JPG';
+import TechStackLeft from './TechStackLeft';
+import TechStackRight from './TechStackRight';
 
 function Portfolio() {
   return (
     <>
-      <h1>Portfolio</h1>
+      <Tech />
+      <TechStackLeft />
+      <TechStackRight />
+      <TechStackLeft />
+      <TechStackRight />
+      <TechStackLeft />
+      <TechStackRight />
+      <TechStackLeft />
+      <TechStackRight />
     </>
-  )
+  );
 }
 
-export default Portfolio
+export default Portfolio;

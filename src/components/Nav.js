@@ -6,16 +6,16 @@ function Nav() {
     <>
       <nav>
         <li>
-          <a>Home</a>
+          <Link to=''>Home</Link>
         </li>
         <li>
-          <a>Resume'</a>
+          <Link to='/resume'>Resume'</Link>
         </li>
         <li>
-          <a>Portfolio</a>
+          <Link to='/portfolio'>Portfolio</Link>
         </li>
         <li>
-          <a>About</a>
+          <Link to='/about'>About</Link>
         </li>
       </nav>
       <hr></hr>
