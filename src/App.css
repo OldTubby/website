@@ -20,6 +20,8 @@ body {
   border-style: solid;
   border-color: white;
   border-width: 1px;
+  display: flex;
+  justify-content: center;
 }
 
 .row {
@@ -65,8 +67,9 @@ body {
 
 .middleHome {
   display: flex;
-  justify-items: space-between;
+  justify-content: center;
   align-items: center;
+  max-width: 80%;
 }
 
 .headline {
@@ -98,11 +101,21 @@ body {
 }
 
 .portfolioBody {
-  display: flex;
-  justify-content: space-around;
   border-style: solid;
   border-color: white;
   border-width: 1px;
   background-color: white;
   color: black;
+}
+
+.truckuprofilepic {
+  max-width: 100%;
+  height: auto;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.projectDesc {
+  max-width: 35%;
 }
