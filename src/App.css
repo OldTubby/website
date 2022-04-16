@@ -1,121 +1,44 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-nav {
-  list-style: none;
-  color: white;
-  display: flex;
-  justify-content: space-around;
+.vangoghComponentTop {
+  padding-top: 85px;
 }
 
-body {
-  background-color: #1f2f2c;
-}
-
-.container {
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  display: flex;
-  justify-content: center;
-}
-
-.row {
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  align-items: center;
-}
-
-.row2 {
-  display: flex;
-  justify-content: space-around;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-}
-
-.row3 {
-  display: flex;
-  justify-content: space-around;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  background-color: white;
-  color: black;
-}
-
-.socialIcon {
-  max-width: 32px;
-  margin-left: 1em;
-}
-
-.home {
-  display: flex;
-  justify-content: center;
-}
-
-.vanGogh {
-  margin-top: 3em;
-  max-width: 32%;
-  color: white;
-}
-
-.middleHome {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 80%;
-}
-
-.headline {
-  margin: 5em;
+.vangogh {
   max-width: 100%;
-  border: #0b5a4b;
-  border-width: 2px;
-  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeMessage {
+  align-items: center;
 }
 
 .she {
-  width: 300px;
-  height: auto;
-}
-
-.col {
-  list-style: none;
+  aspect-ratio: 1 / 1;
+  flex-grow: 1;
+  height: 315px;
+  align-items: center;
 }
 
 .stacks {
   width: 64px;
+}
+
+.techName {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.techIcon {
+  list-style: none;
   display: flex;
   justify-content: space-around;
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  align-items: center;
-  background-color: white;
-}
-
-.portfolioBody {
-  border-style: solid;
-  border-color: white;
-  border-width: 1px;
-  background-color: white;
-  color: black;
-}
-
-.truckuprofilepic {
-  max-width: 100%;
-  height: auto;
-  border-style: solid;
-  border-color: black;
-  border-width: 2px;
-}
-
-.projectDesc {
-  max-width: 35%;
+  padding: 2em 0 0 0;
 }

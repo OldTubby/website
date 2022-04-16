@@ -1,21 +1,14 @@
 import React from 'react';
-import Tech from './Tech';
-import she from '../images/She.JPG';
-import TechStackLeft from './TechStackLeft';
-import TechStackRight from './TechStackRight';
+import TechIcon from './TechIcon';
+import TechName from './TechName';
+import TruckU from './TruckU';
 
 function Portfolio() {
   return (
     <>
-      <Tech />
-      <TechStackLeft />
-      <TechStackRight />
-      <TechStackLeft />
-      <TechStackRight />
-      <TechStackLeft />
-      <TechStackRight />
-      <TechStackLeft />
-      <TechStackRight />
+      <TechIcon />
+      <TechName />
+      <TruckU />
     </>
   );
 }
