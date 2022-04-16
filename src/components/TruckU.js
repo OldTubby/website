@@ -5,23 +5,27 @@ function TruckU() {
   return (
     <>
       <div className='container'>
-        <div className='row'>
+        <div className='row portfolioPadding'>
           {/* <div className='row middleHome'>
           <div className='col'> */}
           <div>
-            <h3>TRUCK-U: Social Network for the Transporation Industry</h3>
+            <h3>TRUCK-U: A social network for the Transporation Industry</h3>
             <hr></hr>
             <p>Angular, Node.js, Express.js, MongoDB, HTML, CSS, TypeScript</p>
-            <hr></hr>
             <p>April 2022</p>
+            <hr></hr>
             <br></br>
             <p>
-              A web application designed speciUcally for the transportation
-              industry that would allow drivers and businesses the opportunity
-              to connect. Psers can login, update proUles and post thoughts to
-              the site. Future enhancements include connecting with AI:s that
-              will allow for maps/navigation, places of interest, stock prices
-              and emergency service contacts.
+              The last project from my Full Stack bootcamp was to create a CRUD
+              application and this was a lot of fun.
+            </p>
+            <p>
+              This is designed specifcally for the transportation industry that
+              would allow drivers and businesses the opportunity to connect.
+              Users can login, update profiles and post thoughts to the site.
+              Future enhancements include connecting with API's that will allow
+              for maps/navigation, places of interest, stock prices and
+              emergency service contacts.
             </p>
           </div>
         </div>

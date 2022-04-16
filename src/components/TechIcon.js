@@ -5,6 +5,14 @@ function TechIcon() {
     <>
       <div className='container'>
         <div className='row techIcon'>
+          <div className='techIconPadding'>
+            <h3>Portfolio</h3>
+            <p>
+              It's about the code, isn't it? Here are a few examples of recent
+              projects.
+            </p>
+            <br></br>
+          </div>
           <div className='col'>
             <li>
               <img
