@@ -51,3 +51,31 @@
 .portfolioPadding {
   padding-top: 2em;
 }
+
+.secondaryItemPortPadding {
+  padding-top: 6em;
+}
+
+.mobilePic {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding-bottom: 1em;
+}
+
+.blogPhoto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tictactoe {
+  display: flex;
+  justify-content: center;
+}
+
+.javascriptclock {
+  display: flex;
+  justify-content: center;
+}

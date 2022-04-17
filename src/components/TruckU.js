@@ -6,13 +6,10 @@ function TruckU() {
     <>
       <div className='container'>
         <div className='row portfolioPadding'>
-          {/* <div className='row middleHome'>
-          <div className='col'> */}
           <div>
-            <h3>TRUCK-U: A social network for the Transporation Industry</h3>
+            <h3>TRUCK-U: A Social Network for the Transporation Industry</h3>
             <hr></hr>
             <p>Angular, Node.js, Express.js, MongoDB, HTML, CSS, TypeScript</p>
-            <p>April 2022</p>
             <hr></hr>
             <br></br>
             <p>
@@ -29,11 +26,16 @@ function TruckU() {
             </p>
           </div>
         </div>
-        <div>
-          <img
-            className='truckuprofilepic mx-auto d-block img-fluid'
-            src={truckuprofile}
-          />
+        <div className='truckUPic'>
+          <a
+            href='https://github.com/Woz-U-Group-Projects/team-2'
+            target='_blank'
+            rel='noopener noreferrer'>
+            <img
+              className='truckuprofilepic mx-auto d-block img-fluid'
+              src={truckuprofile}
+            />
+          </a>
         </div>
       </div>
       {/* </div>

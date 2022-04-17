@@ -9,7 +9,7 @@ function TechIcon() {
             <h3>Portfolio</h3>
             <p>
               It's about the code, isn't it? Here are a few examples of recent
-              projects.
+              projects. Click the image to view the repository.
             </p>
             <br></br>
           </div>
