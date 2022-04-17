@@ -34,21 +34,5 @@ https://www.seekpng.com/png/full/385-3852777_ionic-icon-png.png
 RestAPI
 https://www.elemental.co.za/cms/resources/uploads/blog/86/926f6aaba773.png
 
-<div className='row3'>
 
-
-<nav>
-        <li>
-          <Link to=''>Home</Link>
-        </li>
-        <li>
-          <Link to='/resume'>Resume'</Link>
-        </li>
-        <li>
-          <Link to='/portfolio'>Portfolio</Link>
-        </li>
-        <li>
-          <Link to='/about'>About</Link>
-        </li>
-      </nav>
-      <hr></hr>
+      https://www.seu.edu/wp-content/uploads/SEU-Logotype-Red-150.png

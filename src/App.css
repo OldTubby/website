@@ -1,3 +1,8 @@
+.globalContainer {
+  width: 80%;
+  justify-content: space-around;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -86,4 +91,93 @@
 
 .clockPhoto {
   max-width: 60%;
+}
+
+.resumePadding {
+  padding-top: 80px;
+}
+
+.topCity {
+  display: flex;
+  justify-content: start;
+  color: gray;
+  padding-bottom: 1em;
+}
+
+.topEmail {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  padding-bottom: 1em;
+}
+
+.topPhone {
+  display: flex;
+  justify-content: end;
+  color: gray;
+  padding-bottom: 1em;
+}
+
+.linkedInResume {
+  display: flex;
+  justify-content: start;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.linkedInResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.personalPortfolio {
+  display: flex;
+  justify-content: center;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.portfolioResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.gitHubResume {
+  display: flex;
+  justify-content: end;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.gitHubResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.objectiveTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+.objectiveText {
+  display: flex;
+  justify-content: start;
+}
+
+.objectiveList {
+  margin: 0;
+  padding: 0;
+}
+
+.educationTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+.southEasternLogo {
+  width: 75%;
 }
