@@ -14,7 +14,9 @@ function JSClock() {
             <br></br>
             <p>
               The 'timeless' app on every beginning developers list - a
-              JavaScript powered clock.
+              JavaScript powered clock. Also - a screenshot of a static clock is
+              so very anti-climatic...but it avoids certain dangers of the
+              internet.
             </p>
           </div>
         </div>
@@ -31,6 +33,13 @@ function JSClock() {
           </div>
         </div>
       </div>
+      {/* <div className='container'>
+        <div className='row'>
+          <div className='col'>
+            <WorkingClock />
+          </div>
+        </div>
+      </div> */}
     </>
   );
 }
