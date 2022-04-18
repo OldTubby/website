@@ -15,10 +15,11 @@ function Objective() {
         <div className='row'>
           <div className='col-md-8 objectiveText'>
             <p>
-              Successful employee of the technology space via implementation,
-              customer service, and consultative service with the goal of
-              transitioning into coding. Seeking a position that allows for
-              growth, learning and the opportunity to build code.
+              Successful leader in the technology space via implementation,
+              customer service, and consultative services, with the goal of
+              transitioning into software development. Recently completed Full
+              Stack bootcamp and seeking a position that allows for growth,
+              learning and the opportunity to build code.
             </p>
           </div>
           <div className='col-md-2 objectiveList'>

@@ -24,7 +24,7 @@ function WorkHistory() {
             <p>Richardson, TX</p>
           </div>
           <div className='col-md-6 jobTerm'>
-            <p>October 2016 - Present</p>
+            <p>(October 2016 - Present)</p>
           </div>
         </div>
         <div className='row'>
@@ -67,13 +67,16 @@ function WorkHistory() {
               <span className='jobTitle'>Director, Client Services</span>
             </p>
           </div>
+          <div className='col-md-6 dealerTrackDates'>
+            <p>(April 2002 - March 2016)</p>
+          </div>
         </div>
         <div className='row'>
           <div className='col-md-6 jobCity'>
             <p>Dallas, TX</p>
           </div>
           <div className='col-md-6 jobTerm'>
-            <p>March 2014 - March 2016</p>
+            <p>(March 2014 - March 2016)</p>
           </div>
         </div>
         <div className='row'>
@@ -109,6 +112,80 @@ function WorkHistory() {
             </ul>
           </div>
         </div>
+        <div className='row'>
+          <div className='col-md-6'>
+            <p className='employerName'>
+              Dealertrack (continued)
+              <br />
+              <span className='jobTitle'>Senior Manager, Implementation</span>
+            </p>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col-md-6 jobCity'>
+            <p>Dallas, TX</p>
+          </div>
+          <div className='col-md-6 jobTerm'>
+            <p>(March 2012 - March 2014)</p>
+          </div>
+        </div>
+        <div className='row'>
+          <div className='col'>
+            <ul>
+              <li>
+                Managed a team of 30 Implementation Specialists and Data
+                Engineers focused on the installation and training for
+                automotive dealership websites, inventory management and mobile
+                application platforms.
+              </li>
+              <li>
+                Implemented Professional Services Automation (PSA) in
+                salesforce.com for multiple teams to track and provide quality
+                assurance during product installation.
+              </li>
+              <li>
+                By focusing on process efficiencies and investing in team member
+                training, I was able to reduce the implementation cycle by 25%.
+              </li>
+            </ul>
+          </div>
+          <div className='row'>
+            <div className='col-md-6'>
+              <p className='employerName'>
+                Dealertrack (continued)
+                <br />
+                <span className='jobTitle'>Manager, Services</span>
+              </p>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-6 jobCity'>
+              <p>Austin, TX</p>
+            </div>
+            <div className='col-md-6 jobTerm'>
+              <p>(March 2010 - March 2012)</p>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <ul>
+                <li>
+                  I managed a team of field-based consultants tasked with
+                  driving value in the Dealertrack suite of products. My primary
+                  role was to drive customer retention in the highly-competitive
+                  post-recession marketplace.
+                </li>
+                <li>
+                  Provided consultative services for automotive dealerships and
+                  assisted with best practices and training on Dealertrack
+                  technology.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr></hr>
+        <p>(Additional work experience is available anytime if requested.)</p>
       </div>
     </>
   );

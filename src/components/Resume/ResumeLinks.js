@@ -4,7 +4,7 @@ function ResumeLinks() {
   return (
     <>
       <div className='container'>
-        <div className='row'>
+        <div className='row resumeContacts'>
           <div className='col-md-4'>
             <div className='linkedInResume'>
               <p>

@@ -1,5 +1,5 @@
 .globalContainer {
-  width: 80%;
+  width: 70%;
   justify-content: space-around;
 }
 
@@ -104,6 +104,11 @@
   padding-bottom: 1em;
 }
 
+.resumeContacts {
+  display: flex;
+  justify-content: space-around;
+}
+
 .topEmail {
   display: flex;
   justify-content: center;
@@ -203,6 +208,12 @@
 
 .jobTerm {
   font-weight: 100;
+  display: flex;
+  justify-content: end;
+}
+
+.dealerTrackDates {
+  font-weight: bold;
   display: flex;
   justify-content: end;
 }

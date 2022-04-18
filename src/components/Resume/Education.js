@@ -10,7 +10,7 @@ function Education() {
             <h5>EDUCATION:</h5>
           </div>
           <div className='row'>
-            <div className='col-md-3'>
+            <div className='col-md-4'>
               <img className='southEasternLogo img-fluid' src={seulogo} />
               <br />
               <p className='degreeName'>
@@ -20,7 +20,7 @@ function Education() {
               </p>
             </div>
             <div className='col-md-1'></div>
-            <div className='col-md-3'>
+            <div className='col-md-4'>
               <img className='southEasternLogo img-fluid' src={seulogo} />
               <br />
               <p className='degreeName'>
