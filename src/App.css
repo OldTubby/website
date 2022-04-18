@@ -181,3 +181,28 @@
 .southEasternLogo {
   width: 75%;
 }
+
+.employerTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: start;
+}
+
+.employerName {
+  font-weight: bold;
+}
+
+.jobTitle {
+  font-weight: 300;
+}
+
+.jobCity {
+  font-weight: 100;
+}
+
+.jobTerm {
+  font-weight: 100;
+  display: flex;
+  justify-content: end;
+}
