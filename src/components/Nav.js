@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <>
-      <nav className='navbar navbar-expand-lg navbar-dark bg-dark'>
-        <div className='container-fluid'>
+      <nav className='navbar navbar-expand-md navbar-dark bg-dark'>
+        <div className='container'>
           <Link className='navbar-brand' to=''>
             Home | Portfolio
           </Link>
@@ -20,14 +20,13 @@ function Nav() {
             <span className='navbar-toggler-icon'></span>
           </button>
           <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
-            <div className='navbar-nav'>
+            <div className='navbar-nav ms-auto'>
               <Link className='nav-link' to='/resume'>
                 Resume
               </Link>
               <Link className='nav-link' to='/about'>
                 About
               </Link>
-              {/* <Link className='nav-link disabled'>Disabled</Link> */}
             </div>
           </div>
         </div>
