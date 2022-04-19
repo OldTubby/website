@@ -28,7 +28,7 @@ function MobileApp() {
             </p>
           </div>
         </div>
-        <div className='row mobilePics'>
+        <div className='row mobilePics gy-4'>
           <div className='col-md-3'>
             <a
               href='https://github.com/OldTubby/ionic-book-app'

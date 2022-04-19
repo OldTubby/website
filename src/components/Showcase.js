@@ -6,7 +6,7 @@ function Showcase() {
     <>
       <section className='bg-black text-light p-5'>
         <div className='container showCaseContainer'>
-          <div className='row showcase'>
+          <div className='row showcase gx-10'>
             <div className='col-md-7 d-sm-flex line'>
               <figure>
                 <blockquote className='blockquote blockUp'>
@@ -21,9 +21,9 @@ function Showcase() {
                 </figcaption>
               </figure>
             </div>
-            <div className='col-md-5 compassCol line'>
+            <div className='col-md-5'>
               <img
-                className='compass img-fluid d-none d-sm-block'
+                className='compass img-fluid d-none d-md-block'
                 src={compass}
                 alt='Compass'
               />

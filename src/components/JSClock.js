@@ -27,7 +27,7 @@ function JSClock() {
               target='_blank'
               rel='noopener noreferrer'>
               <img
-                className='clockPhoto mx-auto d-block img-fluid'
+                className='clockPhoto d-block img-fluid mx-auto'
                 src={javascriptclock}></img>
             </a>
           </div>

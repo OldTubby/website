@@ -21,7 +21,7 @@ function MarkDownBlog() {
             </p>
           </div>
         </div>
-        <div className='row'>
+        <div className='row gy-4'>
           <div className='col-md-6 blogPhoto'>
             <a
               href='https://github.com/OldTubby/markdown_blog'
