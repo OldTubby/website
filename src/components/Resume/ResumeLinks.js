@@ -4,8 +4,8 @@ function ResumeLinks() {
   return (
     <>
       <div className='container'>
-        <div className='row resumeContacts'>
-          <div className='col-md-4'>
+        <div className='row d-md-flex resumeContacts'>
+          <div className='col-md-4 resumeContactCol'>
             <div className='linkedInResume'>
               <p>
                 LINKEDIN:
@@ -15,12 +15,12 @@ function ResumeLinks() {
                   href='https://linkedin.com/in/chrisleensvaart'
                   target='_blank'
                   rel='noopener noreferrer'>
-                  linkedin.com/in/chrisleensvaart
+                  linkedin.com
                 </a>
               </p>
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 resumeContactCol'>
             <div className='personalPortfolio'>
               <p>
                 PORTFOLIO:
@@ -35,7 +35,7 @@ function ResumeLinks() {
               </p>
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 resumeContactCol'>
             <div className='gitHubResume'>
               <p>
                 GITHUB:

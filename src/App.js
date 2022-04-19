@@ -7,11 +7,13 @@ import Home from './components/Home';
 import Resume from './components/Resume/Resume';
 import Footer from './components/Footer';
 import Container from './components/Container';
+import Showcase from './components/Showcase';
 
 function App() {
   return (
     <BrowserRouter>
       <Nav />
+      <Showcase />
       <Container>
         <Routes>
           <Route path='' element={<Home />} />

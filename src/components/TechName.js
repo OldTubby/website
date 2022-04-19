@@ -3,7 +3,7 @@ import React from 'react';
 function TechName() {
   return (
     <>
-      <div className='container d-none d-lg-block'>
+      <div className='container d-none d-xl-block'>
         <div className='row techName'>
           <div className='col'>
             <li>

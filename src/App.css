@@ -3,11 +3,16 @@
   justify-content: space-around;
 }
 
-.navbar {
+.showCaseContainer {
+  width: 70%;
+  justify-content: space-between;
+}
+
+/* .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
 
 .vangoghComponentTop {
   padding-top: 85px;
@@ -16,8 +21,27 @@
 .vangogh {
   max-width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+}
+
+.showcase {
+  align-items: center;
+}
+
+.blockUp {
+  font-size: xx-large;
+}
+
+.compass {
+  width: 80%;
+  min-width: 50%;
+}
+
+.compassCol {
+  display: flex;
+  justify-content: end;
+  padding-right: 3em;
 }
 
 .homeMessage {
@@ -25,10 +49,10 @@
 }
 
 .she {
-  aspect-ratio: 1 / 1;
-  flex-grow: 1;
-  height: 315px;
+  width: 65%;
   align-items: center;
+  border-radius: 40px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
 }
 
 .stacks {
@@ -50,15 +74,15 @@
 }
 
 .techIconPadding {
-  padding-top: 6em;
+  padding-top: 3em;
 }
 
 .portfolioPadding {
-  padding-top: 2em;
+  padding-top: 1em;
 }
 
 .secondaryItemPortPadding {
-  padding-top: 6em;
+  padding-top: 3em;
 }
 
 .mobilePic {
@@ -93,34 +117,43 @@
   max-width: 60%;
 }
 
+/* .ResumeContainer {
+  max-width: 75%;
+  min-width: 75%;
+} */
+
 .resumePadding {
-  padding-top: 80px;
+  padding-top: 60px;
 }
 
 .topCity {
   display: flex;
-  justify-content: start;
+  justify-content: center;
   color: gray;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 .resumeContacts {
+  justify-content: center;
+}
+
+.resumeContactCol {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .topEmail {
   display: flex;
   justify-content: center;
   color: gray;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 .topPhone {
   display: flex;
-  justify-content: end;
+  justify-content: center;
   color: gray;
-  padding-bottom: 1em;
+  /* padding-bottom: 1em; */
 }
 
 .linkedInResume {

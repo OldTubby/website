@@ -4,7 +4,7 @@ function TopContact() {
   return (
     <>
       <div className='container resumePadding'>
-        <div className='row'>
+        {/* <div className='row'>
           <div className='col'>
             <a
               href='https://drive.google.com/file/d/1fggd3uA-BMNkq-bgaQoSwwm2T7gXXCpc/view?usp=sharing'
@@ -13,20 +13,20 @@ function TopContact() {
               <h6>Click To Download</h6>
             </a>
           </div>
-        </div>
+        </div> */}
         <div className='row'>
           <div className='col'>
             <h1>Chris Leensvaart</h1>
           </div>
         </div>
         <div className='row'>
-          <div className='col-md-4 topCity'>
+          <div className='col-md-4 d-flex-sm topCity'>
             <p>Little Elm, TX</p>
           </div>
-          <div className='col-md-4 topEmail'>
+          <div className='col-md-4 d-flex-sm topEmail'>
             <p>chris@leensvaart.com</p>
           </div>
-          <div className='col-md-4 topPhone'>
+          <div className='col-md-4 d-flex-sm topPhone'>
             <p>214.585.8414</p>
           </div>
         </div>

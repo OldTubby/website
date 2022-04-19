@@ -4,11 +4,18 @@ import she from '../images/She.JPG';
 function HomeMessage() {
   return (
     <>
-      <div className='container'>
+      <div className='container mt-5'>
         <div className='row homeMessage'>
           <div className='col-md-6'>
             <h4>And Now For Something Completely Different...</h4>
             <hr></hr>
+            <p>
+              This journey began last year when my wife challenged me to take a
+              risk and pursue what I've always wanted to do: Software
+              Development. There are plenty of reasons why this may not be the
+              smartest career move, but she knows that I really want this and
+              keeps encouraging me to go for it.
+            </p>
             <p>
               I am so grateful for my years in Operations and Customer Service.
               The people that I've had the opportunity to work alongside are
@@ -25,7 +32,7 @@ function HomeMessage() {
           <div className='col-md-6'>
             <div className='text-center'>
               <img
-                className='she mx-auto d-block'
+                className='she mx-auto d-sm-block'
                 src={she}
                 alt='Chris and Renee'
               />
