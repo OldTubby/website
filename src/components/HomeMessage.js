@@ -9,6 +9,10 @@ function HomeMessage() {
           <div className='col-md-6'>
             <h4>And Now For Something Completely Different...</h4>
             <hr></hr>
+          </div>
+        </div>
+        <div className='row differentMessage'>
+          <div className='col-md-6'>
             <p>
               This journey began last year when my wife challenged me to take a
               risk and pursue what I've always wanted to do: Software
@@ -30,9 +34,9 @@ function HomeMessage() {
             <p>This is where it starts.</p>
           </div>
           <div className='col-md-6'>
-            <div className='text-center'>
+            <div>
               <img
-                className='she mx-auto d-sm-block'
+                className='she mx-auto d-md-block'
                 src={she}
                 alt='Chris and Renee'
               />

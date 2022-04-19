@@ -6,6 +6,7 @@
 .showCaseContainer {
   width: 70%;
   justify-content: space-between;
+  padding-top: 65px;
 }
 
 .vangoghComponentTop {
@@ -38,14 +39,16 @@
   padding-right: 3em;
 }
 
-.homeMessage {
+.differentMessage {
+  display: flex;
   align-items: center;
 }
 
 .she {
-  width: 65%;
+  width: 70%;
+  min-width: 70%;
   align-items: center;
-  border-radius: 40px;
+  border-radius: 20px;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
 }
 
