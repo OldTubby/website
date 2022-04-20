@@ -27,7 +27,10 @@ function MarkDownBlog() {
               href='https://github.com/OldTubby/markdown_blog'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='blogPhoto img-fluid' src={blog1}></img>
+              <img
+                className='blogPhoto img-fluid'
+                src={blog1}
+                alt='blog 1'></img>
             </a>
           </div>
           <div className='col-md-6 blogPhoto'>
@@ -35,7 +38,10 @@ function MarkDownBlog() {
               href='https://github.com/OldTubby/markdown_blog'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='blogPhoto img-fluid' src={blog2}></img>
+              <img
+                className='blogPhoto img-fluid'
+                src={blog2}
+                alt='blog 2'></img>
             </a>
           </div>
         </div>

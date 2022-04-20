@@ -27,7 +27,10 @@ function TicTacToe() {
               href='https://github.com/OldTubby/tic-tac-toe'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='tictactoe img-fluid' src={tictactoe}></img>
+              <img
+                className='tictactoe img-fluid'
+                src={tictactoe}
+                alt='tictactoe 1'></img>
             </a>
           </div>
           <div className='col-md-6 tictactoe'>
@@ -35,7 +38,10 @@ function TicTacToe() {
               href='https://github.com/OldTubby/tic-tac-toe'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='tictactoe img-fluid' src={xWins}></img>
+              <img
+                className='tictactoe img-fluid'
+                src={xWins}
+                alt='tictactoe 2'></img>
             </a>
           </div>
         </div>

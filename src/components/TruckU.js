@@ -34,12 +34,11 @@ function TruckU() {
             <img
               className='truckuprofilepic mx-auto d-block img-fluid'
               src={truckuprofile}
+              alt='profile page'
             />
           </a>
         </div>
       </div>
-      {/* </div>
-      </div> */}
     </>
   );
 }
