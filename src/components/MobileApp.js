@@ -34,7 +34,11 @@ function MobileApp() {
               href='https://github.com/OldTubby/ionic-book-app'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='mobilePic img-fluid' src={Cover} />
+              <img
+                className='mobilePic img-fluid'
+                src={Cover}
+                alt='reading app cover'
+              />
             </a>
           </div>
           <div className='col-md-3'>
@@ -42,7 +46,11 @@ function MobileApp() {
               href='https://github.com/OldTubby/ionic-book-app'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='mobilePic img-fluid' src={TOC} />
+              <img
+                className='mobilePic img-fluid'
+                src={TOC}
+                alt='reading app table of contents'
+              />
             </a>
           </div>
           <div className='col-md-3'>
@@ -50,7 +58,11 @@ function MobileApp() {
               href='https://github.com/OldTubby/ionic-book-app'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='mobilePic img-fluid' src={Ch1} />
+              <img
+                className='mobilePic img-fluid'
+                src={Ch1}
+                alt='reading app chapter 1'
+              />
             </a>
           </div>
           <div className='col-md-3'>
@@ -58,7 +70,11 @@ function MobileApp() {
               href='https://github.com/OldTubby/ionic-book-app'
               target='_blank'
               rel='noopener noreferrer'>
-              <img className='mobilePic img-fluid' src={Ch2} />
+              <img
+                className='mobilePic img-fluid'
+                src={Ch2}
+                alt='reading app chapter 2'
+              />
             </a>
           </div>
         </div>

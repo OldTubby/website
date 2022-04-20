@@ -11,7 +11,11 @@ function Education() {
           </div>
           <div className='row'>
             <div className='col-md-4'>
-              <img className='southEasternLogo img-fluid' src={seulogo} />
+              <img
+                className='southEasternLogo img-fluid'
+                src={seulogo}
+                alt='southeastern university logo'
+              />
               <br />
               <p className='degreeName'>
                 Full Stack Developer Bootcamp
@@ -21,7 +25,11 @@ function Education() {
             </div>
             <div className='col-md-1'></div>
             <div className='col-md-4'>
-              <img className='southEasternLogo img-fluid' src={seulogo} />
+              <img
+                className='southEasternLogo img-fluid'
+                src={seulogo}
+                alt='southeastern university logo'
+              />
               <br />
               <p className='degreeName'>
                 Associates of Arts
