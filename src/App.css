@@ -1,38 +1,248 @@
-.App {
-  text-align: center;
+.globalContainer {
+  width: 70%;
+  justify-content: space-around;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.showCaseContainer {
+  width: 70%;
+  justify-content: space-between;
+  padding-top: 65px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.vangoghComponentTop {
+  padding-top: 85px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.vangogh {
+  max-width: 100%;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+}
+
+.showcase {
+  align-items: center;
+}
+
+.blockUp {
+  font-size: xx-large;
+}
+
+.compass {
+  width: 80%;
+  min-width: 50%;
+}
+
+.compassCol {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 3em;
+}
+
+.differentMessage {
+  display: flex;
+  align-items: center;
+}
+
+.she {
+  width: 70%;
+  min-width: 70%;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.stacks {
+  width: 64px;
+  min-width: 64px;
+}
+
+.stackShadow {
+  border-radius: 5px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.techName {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 8px;
+}
+
+.techIcon {
+  list-style: none;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.portfolioPadding {
+  padding-top: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.secondaryItemPortPadding {
+  padding-top: 3em;
+}
+
+.truckUPic {
+  border-radius: 5px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mobilePic {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  padding-bottom: 1em;
+  border-radius: 5px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.blogPhoto {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tictactoe {
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+}
+
+.javascriptclock {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  padding-top: 70px;
+}
+
+.clockPhoto {
+  max-width: 50%;
+  border-radius: 40px;
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.resumePadding {
+  padding-top: 60px;
+}
+
+.topCity {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  /* padding-bottom: 1em; */
+}
+
+.topEmail {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  /* padding-bottom: 1em; */
+}
+
+.topPhone {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  /* padding-bottom: 1em; */
+}
+
+.linkedInResume {
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.linkedInResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.personalPortfolio {
+  display: flex;
+  justify-content: center;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.portfolioResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.gitHubResume {
+  display: flex;
+  justify-content: flex-end;
+  color: darkcyan;
+  font-weight: bold;
+}
+
+.gitHubResumeLink {
+  color: tan;
+  font-weight: 200;
+}
+
+.objectiveTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.objectiveText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.objectiveList {
+  margin: 0;
+  padding: 0;
+}
+
+.educationTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.southEasternLogo {
+  width: 75%;
+}
+
+.employerTitle {
+  color: darkcyan;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.employerName {
+  font-weight: bold;
+}
+
+.jobTitle {
+  font-weight: 300;
+}
+
+.jobCity {
+  font-weight: 100;
+}
+
+.jobTerm {
+  font-weight: 100;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dealerTrackDates {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
 }
