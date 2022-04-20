@@ -35,7 +35,7 @@
 
 .compassCol {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   padding-right: 3em;
 }
 
@@ -129,11 +129,6 @@
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.3), 0 10px 24px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* .ResumeContainer {
-  max-width: 75%;
-  min-width: 75%;
-} */
-
 .resumePadding {
   padding-top: 60px;
 }
@@ -143,15 +138,6 @@
   justify-content: center;
   color: gray;
   /* padding-bottom: 1em; */
-}
-
-.resumeContacts {
-  justify-content: center;
-}
-
-.resumeContactCol {
-  display: flex;
-  justify-content: center;
 }
 
 .topEmail {
@@ -169,8 +155,6 @@
 }
 
 .linkedInResume {
-  display: flex;
-  justify-content: start;
   color: darkcyan;
   font-weight: bold;
 }
@@ -194,7 +178,7 @@
 
 .gitHubResume {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   color: darkcyan;
   font-weight: bold;
 }
@@ -208,12 +192,12 @@
   color: darkcyan;
   font-weight: bold;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .objectiveText {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .objectiveList {
@@ -225,7 +209,7 @@
   color: darkcyan;
   font-weight: bold;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .southEasternLogo {
@@ -236,7 +220,7 @@
   color: darkcyan;
   font-weight: bold;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .employerName {
@@ -254,11 +238,11 @@
 .jobTerm {
   font-weight: 100;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .dealerTrackDates {
   font-weight: bold;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }

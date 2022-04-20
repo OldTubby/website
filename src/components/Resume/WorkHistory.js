@@ -183,6 +183,42 @@ function WorkHistory() {
               </ul>
             </div>
           </div>
+          <div className='row'>
+            <div className='col-md-6'>
+              <p className='employerName'>
+                Dealertrack (continued)
+                <br />
+                <span className='jobTitle'>Dealer Support Manager</span>
+              </p>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col-md-6 jobCity'>
+              <p>Greater Chicago Area</p>
+            </div>
+            <div className='col-md-6 jobTerm'>
+              <p>(Apr 2002 - March 2010)</p>
+            </div>
+          </div>
+          <div className='row'>
+            <div className='col'>
+              <ul>
+                <li>
+                  Field-based role supporting retail automotive dealerships and
+                  their use of Dealertrack computer systems and software. I was
+                  uiltimately responsible for client retention, utilization,
+                  client satisfaction, installation and training for the midwest
+                  region.
+                </li>
+                <li>
+                  Meeting with customers onsite in order to learn their sales
+                  process and provide consultative service in an effort to
+                  ensure that customers found a high level of value in the
+                  Dealertrack suite of products.
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
         <hr></hr>
         <p>(Additional work experience is available anytime if requested.)</p>

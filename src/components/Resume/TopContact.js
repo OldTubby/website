@@ -20,13 +20,13 @@ function TopContact() {
           </div>
         </div>
         <div className='row'>
-          <div className='col-md-4 d-flex-sm topCity'>
+          <div className='col-md-4 topCity d-flex justify-content-md-start justify-content-center'>
             <p>Little Elm, TX</p>
           </div>
-          <div className='col-md-4 d-flex-sm topEmail'>
+          <div className='col-md-4 topEmail d-flex justify-content-md-center justify-content-center'>
             <p>chris@leensvaart.com</p>
           </div>
-          <div className='col-md-4 d-flex-sm topPhone'>
+          <div className='col-md-4 topPhone d-flex justify-content-md-end justify-content-center'>
             <p>214.585.8414</p>
           </div>
         </div>
