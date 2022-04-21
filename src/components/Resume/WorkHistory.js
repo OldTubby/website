@@ -42,7 +42,7 @@ function WorkHistory() {
                 of 10x.
               </li>
               <li>
-                Enhanced operations processes by increasing our utilizion of
+                Enhanced operations processes by increasing our utilization of
                 Salesforce objects, reporting and workflows, to better capture
                 agent activity and distribute customer requests.
               </li>
@@ -62,7 +62,7 @@ function WorkHistory() {
         <div className='row'>
           <div className='col-md-6'>
             <p className='employerName'>
-              DealerTrack (aquired by Cox Automotive)
+              DealerTrack (acquired by Cox Automotive)
               <br />
               <span className='jobTitle'>Director, Client Services</span>
             </p>
@@ -84,7 +84,7 @@ function WorkHistory() {
             <span>
               DealerTrack developed the concept of an online credit portal that
               could connect automotive dealerships directly to their lenders,
-              both speeding up and adding efficiences to the dealership sales
+              both speeding up and adding efficiencies to the dealership sales
               process. Dealertrack grew into the signature SaaS provider for
               every aspect of dealership operations.
             </span>
@@ -95,7 +95,7 @@ function WorkHistory() {
                 independent software products.
               </li>
               <li>
-                Launched Service team integration wtih our Engineering and
+                Launched Service team integration with our Engineering and
                 Product Management teams to provide client feedback, measure
                 issue criticality and provide QA testing for product releases.
               </li>
@@ -206,7 +206,7 @@ function WorkHistory() {
                 <li>
                   Field-based role supporting retail automotive dealerships and
                   their use of Dealertrack computer systems and software. I was
-                  uiltimately responsible for client retention, utilization,
+                  ultimately responsible for client retention, utilization,
                   client satisfaction, installation and training for the midwest
                   region.
                 </li>

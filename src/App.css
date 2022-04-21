@@ -123,6 +123,10 @@
   padding-top: 70px;
 }
 
+.ResumeContainer {
+  max-width: 75%;
+}
+
 .clockPhoto {
   max-width: 50%;
   border-radius: 40px;
