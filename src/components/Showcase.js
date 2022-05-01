@@ -12,7 +12,7 @@ function Showcase() {
                 <blockquote className='blockquote blockUp'>
                   <p className='mb-0'>
                     What would life be if we had no{' '}
-                    <span class='text-warning'>courage</span> to attempt
+                    <span className='text-warning'>courage</span> to attempt
                     anything?
                   </p>
                 </blockquote>

@@ -1,4 +1,13 @@
 import React from 'react';
+import mongodblogo from '../images/mongodblogo.png';
+import reacticon from '../images/reacticon.png';
+import angular from '../images/angular.png';
+import javascript from '../images/javascript.png';
+import html from '../images/html.png';
+import css from '../images/css.png';
+import mysql from '../images/mysql.png';
+import node from '../images/node.png';
+import ionic from '../images/ionic.png';
 
 function TechIcon() {
   return (
@@ -17,8 +26,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
-                alt='dev tool icon'
+                src={reacticon}
+                alt='React Icon'
               />
             </li>
           </div>
@@ -26,8 +35,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png'
-                alt='dev tool icon'
+                src={angular}
+                alt='Angular Icon'
               />
             </li>
           </div>
@@ -35,8 +44,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn2.iconfinder.com/data/icons/designer-skills/128/code-programming-javascript-software-develop-command-language-512.png'
-                alt='dev tool icon'
+                src={javascript}
+                alt='JavaScript Icon'
               />
             </li>
           </div>
@@ -44,8 +53,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png'
-                alt='dev tool icon'
+                src={html}
+                alt='HTML Icon'
               />
             </li>
           </div>
@@ -53,8 +62,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png'
-                alt='dev tool icon'
+                src={css}
+                alt='CSS Icon'
               />
             </li>
           </div>
@@ -62,8 +71,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_plain_wordmark_logo_icon_146423.png'
-                alt='dev tool icon'
+                src={mongodblogo}
+                alt='mongo DB Icon'
               />
             </li>
           </div>
@@ -71,8 +80,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn4.iconfinder.com/data/icons/logos-3/181/MySQL-512.png'
-                alt='dev tool icon'
+                src={mysql}
+                alt='MySQL Icon'
               />
             </li>
           </div>
@@ -80,8 +89,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png'
-                alt='dev tool icon'
+                src={node}
+                alt='Node Icon'
               />
             </li>
           </div>
@@ -89,8 +98,8 @@ function TechIcon() {
             <li>
               <img
                 className='stacks stackShadow img-fluid'
-                src='https://www.seekpng.com/png/full/385-3852777_ionic-icon-png.png'
-                alt='dev tool icon'
+                src={ionic}
+                alt='Ionic Icon'
               />
             </li>
           </div>

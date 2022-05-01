@@ -4,9 +4,9 @@ function Footer() {
   return (
     <>
       <div className='footer'>
-        <footer class='mt-auto py-2 bg-dark'>
-          <div class='container'>
-            <span class='text-muted'>
+        <footer className='mt-auto py-2 bg-dark'>
+          <div className='container'>
+            <span className='text-muted'>
               @2022 Chris Leensvaart - Thank you for scrolling all the way to
               the bottom of my portfolio.
             </span>
