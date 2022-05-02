@@ -14,14 +14,6 @@ function TechIcon() {
     <>
       <div className='container'>
         <div className='row techIcon gy-3'>
-          <div>
-            <h3>Portfolio</h3>
-            <p>
-              It's about the code, isn't it? Here are a few examples of recent
-              projects. Click the image to view the repository.
-            </p>
-            <br></br>
-          </div>
           <div className='col'>
             <li>
               <img

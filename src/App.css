@@ -55,6 +55,7 @@
 .stacks {
   width: 64px;
   min-width: 64px;
+  font-weight: 600;
 }
 
 .stackShadow {
@@ -72,6 +73,7 @@
 }
 
 .techIcon {
+  margin-top: 2em;
   list-style: none;
   display: flex;
   justify-content: center;
