@@ -28,6 +28,10 @@
   font-size: xx-large;
 }
 
+.quoteSpan {
+  font-size: 1.15em;
+}
+
 .compass {
   width: 80%;
   min-width: 50%;

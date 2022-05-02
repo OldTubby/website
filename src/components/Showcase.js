@@ -10,7 +10,7 @@ function Showcase() {
             <div className='col-md-7 d-sm-flex line'>
               <figure>
                 <blockquote className='blockquote blockUp'>
-                  <p className='mb-0'>
+                  <p className='mb-0 quoteSpan'>
                     What would life be if we had no{' '}
                     <span className='text-warning'>courage</span> to attempt
                     anything?
