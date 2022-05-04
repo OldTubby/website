@@ -22,7 +22,7 @@ function Nav() {
           <div className='collapse navbar-collapse' id='navbarNavAltMarkup'>
             <div className='navbar-nav'>
               <Link className='nav-link' to='/resume'>
-                Resume
+                Resume | Contact Info
               </Link>
               {/* <Link className='nav-link' to='/about'>
                 About
