@@ -24,7 +24,7 @@ function TopContact() {
             <p>Little Elm, TX</p>
           </div>
           <div className='col-md-4 topEmail d-flex justify-content-md-center justify-content-center'>
-            <p>chris@leensvaart.com</p>
+            <p>cleensvaart@gmail.com</p>
           </div>
           <div className='col-md-4 topPhone d-flex justify-content-md-end justify-content-center'>
             <p>214.585.8414</p>
